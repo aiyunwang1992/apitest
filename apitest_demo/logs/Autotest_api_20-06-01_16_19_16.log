@@ -1,0 +1,1 @@
+2020-06-01 16:19:16,203-INFO-loger.py-42-autotest_log-日志信息:请求参数为：{'id': 0, 'title': '检查邀请人是否存在', 'module': 'register', 'method': 'get', 'header': "{'language':'zh-CN'}", 'url': 'http://stg.panda.co/api/user/checkIntroUser', 'param': "{'introUser':''}", 'excepted_code': 0}

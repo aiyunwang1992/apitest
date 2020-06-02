@@ -1,0 +1,11 @@
+-
+ id: 0
+ title: 检查邀请人是否存在
+ module: register
+ method: get
+ header: "{'language':'zh-CN'}"
+ url: /api/user/checkIntroUser
+ #sql_mode: 1
+ param: "{'introUser':''}"
+ #sql: '{"my_sql":"select count(*) from member where mobilephone=13456789131","result":1}'
+ excepted_code: 0

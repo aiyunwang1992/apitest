@@ -1,0 +1,108 @@
+{
+  "uid" : "e0483d4b9a9b39fe",
+  "name" : "test_case[param0]",
+  "fullName" : "testcases.test_case.TestCases#test_case",
+  "historyId" : "2ab51ad0145ca0630b5d998ce49a9dc4",
+  "time" : {
+    "start" : 1579572550125,
+    "stop" : 1579572551478,
+    "duration" : 1353
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "param",
+    "time" : {
+      "start" : 1579572550124,
+      "stop" : 1579572550124,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1579572550125,
+        "stop" : 1579572551478,
+        "duration" : 1353
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "panda的接口测试报告"
+  }, {
+    "name" : "story",
+    "value" : "接口测试"
+  }, {
+    "name" : "tag",
+    "value" : "flyback"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "host",
+    "value" : "PC-20190814RYRX"
+  }, {
+    "name" : "thread",
+    "value" : "12376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param",
+    "value" : "{'id': 3, 'title': '登录', 'module': 'login', 'method': 'post', 'header': \"{'language':'zh-CN'}\", 'url': 'http://web.panda-inner.co/api/user/login', 'param': \"{ 'loginName':'202011606@ryo.com', 'password':'123456Abc', 'csessionid':'1', 'sig':'1', 'token':'1'}\", 'excepted_code': 0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flyback" ]
+  },
+  "source" : "e0483d4b9a9b39fe.json",
+  "parameterValues" : [ "{'id': 3, 'title': '登录', 'module': 'login', 'method': 'post', 'header': \"{'language':'zh-CN'}\", 'url': 'http://web.panda-inner.co/api/user/login', 'param': \"{ 'loginName':'202011606@ryo.com', 'password':'123456Abc', 'csessionid':'1', 'sig':'1', 'token':'1'}\", 'excepted_code': 0}" ]
+}

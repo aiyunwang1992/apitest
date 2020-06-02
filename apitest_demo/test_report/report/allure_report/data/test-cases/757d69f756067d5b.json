@@ -1,0 +1,108 @@
+{
+  "uid" : "757d69f756067d5b",
+  "name" : "test_case[param3]",
+  "fullName" : "testcases.test_case.TestCases#test_case",
+  "historyId" : "0adad91e0f3ec3c051bf2a3844dce4ed",
+  "time" : {
+    "start" : 1579572551510,
+    "stop" : 1579572551539,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "param",
+    "time" : {
+      "start" : 1579572551509,
+      "stop" : 1579572551509,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "外籍身份认证",
+      "time" : {
+        "start" : 1579572551510,
+        "stop" : 1579572551539,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "panda的接口测试报告"
+  }, {
+    "name" : "story",
+    "value" : "接口测试"
+  }, {
+    "name" : "tag",
+    "value" : "flyback"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "host",
+    "value" : "PC-20190814RYRX"
+  }, {
+    "name" : "thread",
+    "value" : "12376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param",
+    "value" : "{'id': 6, 'title': '外籍身份认证', 'module': 'login', 'method': 'post', 'header': \"{ 'language':'zh-CN', 'token':'TOKENS'}\", 'url': 'http://web.panda-inner.co/api/user/identityOtherAuth', 'param': \"{ 'idNo':'546894564567845645', 'type':0, 'imageAdd':'test', 'name':'test', 'birthDate':'2019-09-01'}\", 'excepted_code': 0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flyback" ]
+  },
+  "source" : "757d69f756067d5b.json",
+  "parameterValues" : [ "{'id': 6, 'title': '外籍身份认证', 'module': 'login', 'method': 'post', 'header': \"{ 'language':'zh-CN', 'token':'TOKENS'}\", 'url': 'http://web.panda-inner.co/api/user/identityOtherAuth', 'param': \"{ 'idNo':'546894564567845645', 'type':0, 'imageAdd':'test', 'name':'test', 'birthDate':'2019-09-01'}\", 'excepted_code': 0}" ]
+}
