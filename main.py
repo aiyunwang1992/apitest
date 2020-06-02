@@ -1,6 +1,6 @@
 # !/usr/bin/python
 # -*- encoding: utf-8 -*-
-import time, pytest, allure
+import time, pytest
 from conf.projectpath import *
 
 now = time.strftime('%Y-%m-%d__%H-%M-%S')
