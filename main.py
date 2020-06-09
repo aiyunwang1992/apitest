@@ -11,11 +11,13 @@ import time
 from conf.projectpath import *
 now=time.strftime('%Y-%m-%d_%H-%M-%S')
 htmlreport='--html='+reports_path+'/apireport'+now+'.html'
-allure_path=reports_path+'/allure-relults/'
+os.mkdir(reports_path+'/allure/'+now)
+
+allure_path=reports_path+'/allure/'+now
 allureFile_path='--alluredir='+allure_path
 allure_report=reports_path+'/allure_report'
 #pytest.main(['-m','flyback',htmlreport,testcases_path+'/test_register.py'])
 
 pytest.main(['-v','-s','-m','flyback','--reruns','2','--reruns-delay','0.5',htmlreport,allureFile_path,testcases_path,'--disable-warnings'])
-#os.system("allure generate "+allure_path+" -o "+allure_report+' --clean')
+os.system("allure generate "+allure_path+" -o "+allure_report+' --clean')
 
