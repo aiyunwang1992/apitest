@@ -1,0 +1,5 @@
+# apitest
+这是requersts结合pytest+allure的接口自动化框架
+是从yaml中读取测试数据的
+使用了params数据驱动的方式
+断言可以使用jsonpath的方式
