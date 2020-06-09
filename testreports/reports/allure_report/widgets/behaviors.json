@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "d2a781a193e969df999128fa13376959",
+    "name" : "panda_api测试报告",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

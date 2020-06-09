@@ -1,0 +1,71 @@
+[ {
+  "uid" : "26254d627cb53531",
+  "name" : "test_register[reg_params2]",
+  "time" : {
+    "start" : 1591678672562,
+    "stop" : 1591678673612,
+    "duration" : 1050
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dfd814be4a4d04f",
+  "name" : "test_register[reg_params1]",
+  "time" : {
+    "start" : 1591678672305,
+    "stop" : 1591678672551,
+    "duration" : 246
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "909d3469371284e",
+  "name" : "test_identify[identify_params0]",
+  "time" : {
+    "start" : 1591678668887,
+    "stop" : 1591678669170,
+    "duration" : 283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "521c596c80a2aa40",
+  "name" : "手机号登录",
+  "time" : {
+    "start" : 1591678669189,
+    "stop" : 1591678669738,
+    "duration" : 549
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c48752c2d1d686e8",
+  "name" : "通过临时登录换取token",
+  "time" : {
+    "start" : 1591678670047,
+    "stop" : 1591678670276,
+    "duration" : 229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80335701fb1f436a",
+  "name" : "test_register[reg_params0]",
+  "time" : {
+    "start" : 1591678672025,
+    "stop" : 1591678672268,
+    "duration" : 243
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "196b9257a1021022",
+  "name" : "发送登录短信验证码",
+  "time" : {
+    "start" : 1591678669749,
+    "stop" : 1591678670032,
+    "duration" : 283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

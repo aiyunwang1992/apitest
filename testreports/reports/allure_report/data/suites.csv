@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jun 09 12:57:50 CST 2020","Tue Jun 09 12:57:50 CST 2020","229","testcases","test_login","Testcases","","","通过临时登录换取token",""
+"broken","Tue Jun 09 12:57:52 CST 2020","Tue Jun 09 12:57:52 CST 2020","243","testcases","test_register","TestCase","","","test_register[reg_params0]",""
+"passed","Tue Jun 09 12:57:52 CST 2020","Tue Jun 09 12:57:53 CST 2020","1050","testcases","test_register","TestCase","","","test_register[reg_params2]",""
+"passed","Tue Jun 09 12:57:49 CST 2020","Tue Jun 09 12:57:50 CST 2020","283","testcases","test_login","Testcases","","","发送登录短信验证码",""
+"passed","Tue Jun 09 12:57:52 CST 2020","Tue Jun 09 12:57:52 CST 2020","246","testcases","test_register","TestCase","","","test_register[reg_params1]",""
+"passed","Tue Jun 09 12:57:49 CST 2020","Tue Jun 09 12:57:49 CST 2020","549","testcases","test_login","Testcases","","","手机号登录",""
+"passed","Tue Jun 09 12:57:48 CST 2020","Tue Jun 09 12:57:49 CST 2020","283","testcases","test_identify","TestCases","","","test_identify[identify_params0]",""

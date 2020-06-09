@@ -1,0 +1,112 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases",
+    "children" : [ {
+      "name" : "test_identify",
+      "children" : [ {
+        "name" : "test_identify[identify_params0]",
+        "uid" : "909d3469371284e",
+        "parentUid" : "4b2b25d8c84b6864716cb6dda2e4dfe3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591678668887,
+          "stop" : 1591678669170,
+          "duration" : 283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '外籍初级身份认证', 'module': 'identityOtherAuth', 'method': 'post', 'header': \"{ 'language':'zh-CN', 'token':'BCACCOUNT_LOGIN_0d3d2d7d788356ec2fced2d995907532_0FFEEC883A954500B3691B97B3A91837'}\", 'url': 'http://stg.panda.co/api/v1/user/identityOtherAuth', 'param': \"{ 'idNo':'420112198208152405', 'type':0, 'imageAdd':'test', 'name':'王金凤', 'birthDate':'2019-09-01'}\", 'excepted_code': 0}" ]
+      } ],
+      "uid" : "4b2b25d8c84b6864716cb6dda2e4dfe3"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "手机号登录",
+        "uid" : "521c596c80a2aa40",
+        "parentUid" : "b3d5adb854320b63d55d1c2a744273d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591678669189,
+          "stop" : 1591678669738,
+          "duration" : 549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '手机号登录', 'module': 'login', 'method': 'post', 'header': \"{'language':'zh-CN'}\", 'url': 'http://stg.panda.co/api/user/login', 'param': \"{ 'loginName': '15386650747', 'password': '123456Abc', 'csessionid':'1', 'sig':'1', 'token':'1'}\", 'excepted_code': 0}" ]
+      }, {
+        "name" : "发送登录短信验证码",
+        "uid" : "196b9257a1021022",
+        "parentUid" : "b3d5adb854320b63d55d1c2a744273d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591678669749,
+          "stop" : 1591678670032,
+          "duration" : 283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '发送登录短信验证码', 'module': 'login', 'method': 'post', 'header': \"{'language':'zh-CN'}\", 'url': 'http://stg.panda.co/api/user/sendSms', 'param': \"{ 'type':'127', 'msgtype':'1', 'areaCode':'86', 'phone': '15386650747', 'csessionid':'1', 'sig':'1', 'token':'1', 'ticket':'TICKET'}\", 'excepted_code': 0}" ]
+      }, {
+        "name" : "通过临时登录换取token",
+        "uid" : "c48752c2d1d686e8",
+        "parentUid" : "b3d5adb854320b63d55d1c2a744273d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591678670047,
+          "stop" : 1591678670276,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '通过临时登录换取token', 'module': 'login', 'method': 'post', 'header': \"{'language':'zh-CN'}\", 'url': 'http://stg.panda.co/api/user/getLoginToken', 'param': \"{ 'ticket':'TICKET', 'code':123456}\", 'excepted_code': 0}" ]
+      } ],
+      "uid" : "b3d5adb854320b63d55d1c2a744273d6"
+    }, {
+      "name" : "test_register",
+      "children" : [ {
+        "name" : "test_register[reg_params0]",
+        "uid" : "80335701fb1f436a",
+        "parentUid" : "36b21d3ff23d2be18a961777964a0d3b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591678672025,
+          "stop" : 1591678672268,
+          "duration" : 243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '检查邀请人是否存在', 'module': 'checkIntroUser', 'method': 'get', 'header': \"{'language':'zh-CN'}\", 'url': 'http://stg.panda.co/api/user/v1/checkIntroUser', 'param': \"{'introUser':'Panda123'}\", 'excepted_code': 0}" ]
+      }, {
+        "name" : "test_register[reg_params1]",
+        "uid" : "1dfd814be4a4d04f",
+        "parentUid" : "36b21d3ff23d2be18a961777964a0d3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591678672305,
+          "stop" : 1591678672551,
+          "duration" : 246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '发送短信证码', 'module': 'sendSms', 'method': 'post', 'header': \"{'language':'zh-CN'}\", 'url': 'http://stg.panda.co/api/v1/user/sendSms', 'param': \"{ 'type':'111', 'msgtype':'1', 'areaCode':'86', 'phone':'18176864051', 'csessionid':'1', 'sig':'1', 'token':'1', 'ticket':'1'}\", 'excepted_code': 0}" ]
+      }, {
+        "name" : "test_register[reg_params2]",
+        "uid" : "26254d627cb53531",
+        "parentUid" : "36b21d3ff23d2be18a961777964a0d3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591678672562,
+          "stop" : 1591678673612,
+          "duration" : 1050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '手机号注册', 'module': 'register', 'method': 'post', 'header': \"{'language':'zh-CN'}\", 'url': 'http://stg.panda.co/api/v1/user/register', 'param': \"{ 'password':'123456Abc', 'regName':'18176864051', 'code':'123456', 'csessionid':'1', 'sig':'1', 'areaCode':'86', 'country':'China', 'introUser':'Panda123', 'token':'1'}\", 'excepted_code': 0}" ]
+      } ],
+      "uid" : "36b21d3ff23d2be18a961777964a0d3b"
+    } ],
+    "uid" : "141fa05f02bf329144b0086cf92149a8"
+  } ]
+}
