@@ -1,2 +1,0 @@
-2020-06-01 16:19:19,133-INFO-loger.py-42-autotest_log-日志信息:请求成功，请求结果为{'code': 0, 'message': '操作成功', 'data': False, 'repParams': None, 'success': True}
-2020-06-01 16:19:19,133-INFO-loger.py-42-autotest_log-日志信息:请求结果为：{'code': 0, 'message': '操作成功', 'data': False, 'repParams': None, 'success': True}

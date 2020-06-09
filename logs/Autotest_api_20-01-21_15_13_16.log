@@ -1,1 +1,0 @@
-2020-01-21 15:13:16,548-ERROR-loger.py-44-autotest_log-日志信息:发起的post请求报错！错误是HTTPConnectionPool(host='web.panda-inner.co', port=80): Max retries exceeded with url: /api/trade/order/getUserEntrustList (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027B971B70B8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
