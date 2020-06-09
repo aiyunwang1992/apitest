@@ -1,0 +1,45 @@
+-
+ title: 手机号登录
+ module: login
+ method: post
+ header: "{'language':'zh-CN'}"
+ url: /api/user/login
+ #sql_mode: 1
+ param: "{
+  'loginName': 'PHONE',
+  'password': '123456Abc',
+  'csessionid':'1',
+  'sig':'1',
+  'token':'1'}"
+ #sql: '{"my_sql":"select count(*) from member where mobilephone=13456789131","result":1}'
+ excepted_code: 0
+-
+ title: 发送登录短信验证码
+ module: login
+ method: post
+ header: "{'language':'zh-CN'}"
+ url: /api/user/sendSms
+ #sql_mode: 1
+ param: "{
+  'type':'127',
+  'msgtype':'1',
+  'areaCode':'86',
+  'phone': 'PHONE',
+  'csessionid':'1',
+  'sig':'1',
+  'token':'1',
+  'ticket':'TICKET'}"
+ #sql: '{"my_sql":"select count(*) from member where mobilephone=13456789131","result":1}'
+ excepted_code: 0
+-
+ title: 通过临时登录换取token
+ module: login
+ method: post
+ header: "{'language':'zh-CN'}"
+ url: /api/user/getLoginToken
+ #sql_mode: 1
+ param: "{
+  'ticket':'TICKET',
+  'code':123456}"
+ #sql: '{"my_sql":"select count(*) from member where mobilephone=13456789131","result":1}'
+ excepted_code: 0

@@ -1,0 +1,47 @@
+-
+ title: 检查邀请人是否存在
+ module: checkIntroUser
+ method: get
+ header: "{'language':'zh-CN'}"
+ url: /api/user/v1/checkIntroUser
+ #sql_mode: 1
+ param: "{'introUser':'Panda123'}"
+ #sql: '{"my_sql":"select count(*) from member where mobilephone=13456789131","result":1}'
+ excepted_code: 0
+-
+ title: 发送短信证码
+ module: sendSms
+ method: post
+ header: "{'language':'zh-CN'}"
+ url: /api/v1/user/sendSms
+ #sql_mode: 1
+ param: "{
+  'type':'111',
+  'msgtype':'1',
+  'areaCode':'86',
+  'phone':'PHONE',
+  'csessionid':'1',
+  'sig':'1',
+  'token':'1',
+  'ticket':'1'}"
+ #sql: '{"my_sql":"select count(*) from member where mobilephone=13456789131","result":1}'
+ excepted_code: 0
+-
+ title: 手机号注册
+ module: register
+ method: post
+ header: "{'language':'zh-CN'}"
+ url: /api/v1/user/register
+ #sql_mode: 1
+ param: "{
+  'password':'123456Abc',
+  'regName':'PHONE',
+  'code':'123456',
+  'csessionid':'1',
+  'sig':'1',
+  'areaCode':'86',
+  'country':'China',
+  'introUser':'Panda123',
+  'token':'1'}"
+ #sql: '{"my_sql":"select count(*) from member where mobilephone=13456789131","result":1}'
+ excepted_code: 0

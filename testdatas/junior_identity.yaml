@@ -1,0 +1,18 @@
+#初级身份认证接口
+-
+ title: 外籍初级身份认证
+ module: identityOtherAuth
+ method: post
+ header: "{
+ 'language':'zh-CN',
+ 'token':'TOKEN'}"
+ url: /api/v1/user/identityOtherAuth
+ #sql_mode: 1
+ param: "{
+  'idNo':'ID',
+  'type':0,
+  'imageAdd':'test',
+  'name':'NAME',
+  'birthDate':'2019-09-01'}"
+ #sql: '{"my_sql":"select count(*) from member where mobilephone=13456789131","result":1}'
+ excepted_code: 0
