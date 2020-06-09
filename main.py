@@ -6,10 +6,12 @@
 # @Software: PyCharm
 '''测试用例执行文件'''
 import pytest
+import os
 import time
 from conf.projectpath import *
 now=time.strftime('%Y-%m-%d_%H-%M-%S')
 htmlreport='--html='+reports_path+'/apireport'+now+'.html'
+os.mkdir(reports_path+'/allure/'+now)
 allure_path=reports_path+'/allure/'+now
 allureFile_path='--alluredir='+allure_path
 allure_report=reports_path+'/allure_report'
