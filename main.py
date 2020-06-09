@@ -11,8 +11,7 @@ import time
 from conf.projectpath import *
 now=time.strftime('%Y-%m-%d_%H-%M-%S')
 htmlreport='--html='+reports_path+'/apireport'+now+'.html'
-os.mkdir(reports_path+'/allure/'+now)
-allure_path=reports_path+'/allure/'+now
+allure_path=reports_path+'/allure/'
 allureFile_path='--alluredir='+allure_path
 allure_report=reports_path+'/allure_report'
 #pytest.main(['-m','flyback',htmlreport,testcases_path+'/test_register.py'])
