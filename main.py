@@ -16,6 +16,6 @@ allureFile_path='--alluredir='+allure_path
 allure_report=reports_path+'/allure_report'
 #pytest.main(['-m','flyback',htmlreport,testcases_path+'/test_register.py'])
 
-pytest.main(['-v','-s','-m','flyback','--reruns','2','--reruns-delay','0.5',htmlreport,allureFile_path,testcases_path])
+pytest.main(['-v','-s','-m','flyback','--reruns','2','--reruns-delay','0.5',htmlreport,allureFile_path,testcases_path,'--disable-warnings'])
 #os.system("allure generate "+allure_path+" -o "+allure_report+' --clean')
 
